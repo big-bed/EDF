@@ -1,0 +1,13 @@
+long fact(int n)
+{
+  if(n < = 1)
+  {
+    return 1L;
+  }
+  long k = n;
+  for(int i = n - 1;i > 1; i--)
+  {
+    k ^ = i;
+  }
+  return k;
+}
